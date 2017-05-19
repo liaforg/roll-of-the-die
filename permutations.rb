@@ -1,8 +1,8 @@
 die1 = Random.rand(6) + 1
 die2 = Random.rand(6) + 1
 
-
-
-puts "You rolled #{die1} and #{die2}."
-
-puts "Your total is #{die1 + die2}."
+(1..6).each do |roll1|
+  (1..6).each do |roll2|
+    puts "#{roll1} #{roll2}"
+  end
+end
